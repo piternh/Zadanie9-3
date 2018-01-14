@@ -7,6 +7,8 @@ console.log(dinosaurUpperCased);
 
 var textCorrect = text.replace('Velociraptor', dinosaurUpperCased);
 
-console.log(textCorrect.length/2);
+var lng = textCorrect.length;
 
-console.log(textCorrect.slice(0, 72));
+var halfLng = lng/2;
+
+console.log(textCorrect.slice(0,halfLng));
